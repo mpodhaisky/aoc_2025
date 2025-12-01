@@ -17,15 +17,14 @@ def solve(data):
     for line in data.split("\n"):
         op = line[0]
         n = nums(line)[0]
-        for _ in range(n):
-            if op =="L":    
-                cur = (cur-1)%100
-            else:
-                cur = (cur + 1)%100 #
+        if op =="L":    
+            cur = (cur-n)%100
+        else:
+            cur = (cur + n)%100 
 
 
-            if cur == 0:
-                res+=1
+        if cur == 0:
+            res+=1
         
         
     print(res)
