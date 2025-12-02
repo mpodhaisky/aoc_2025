@@ -11,7 +11,7 @@ adj8 = [(-1,0),(-1,1),(0,1),(1,1),(1,0),(1,-1),(0,-1),(-1,-1)]
 def nums(line):
     return list(map(int,re.findall(r'-?\d+', line)))
 
-def solve(data):
+def solve(data: str):
     pass
 
 
