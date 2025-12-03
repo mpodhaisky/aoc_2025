@@ -1,7 +1,7 @@
 from collections import Counter, defaultdict
 import hashlib
 import re
-import math
+from math import sqrt, gcd, lcm
 from heapq import heappop, heappush, heapify
 import builtins
 import sys
@@ -9,6 +9,7 @@ import requests
 import os
 import textwrap
 from bs4 import BeautifulSoup
+from functools import cache
 
 AOC_SESSION = os.getenv("AOC_SESSION")
 if not AOC_SESSION:
