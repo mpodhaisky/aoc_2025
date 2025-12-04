@@ -10,6 +10,7 @@ import os
 import textwrap
 from bs4 import BeautifulSoup
 from functools import cache
+from copy import deepcopy
 
 AOC_SESSION = os.getenv("AOC_SESSION")
 if not AOC_SESSION:
