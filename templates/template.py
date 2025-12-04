@@ -65,7 +65,12 @@ def nums(line):
     return list(map(int,re.findall(r'-?\d+', line)))
 
 def solve(data: str):
-    pass
+    res=0
+
+
+
+    
+    print(res)
 
 
 if __name__ == "__main__":
