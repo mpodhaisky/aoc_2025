@@ -1,4 +1,4 @@
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
 import hashlib
 import re
 from math import sqrt, gcd, lcm, inf, prod
