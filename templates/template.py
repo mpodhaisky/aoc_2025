@@ -1,7 +1,7 @@
 from collections import Counter, defaultdict
 import hashlib
 import re
-from math import sqrt, gcd, lcm, inf
+from math import sqrt, gcd, lcm, inf, prod
 from heapq import heappop, heappush, heapify
 import builtins
 import sys
